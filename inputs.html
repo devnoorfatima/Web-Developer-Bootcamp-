@@ -1,0 +1,82 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Registration Form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+    
+ <h1>Register</h1>
+ <form>
+ <div>
+ <label for="First Name">First Name:</label>
+ <input type="text"  name="First" id="First" required>
+ <label for="Last">
+ Last Name:
+    </label>
+    <input name="Last" id="Last" type="text" required>
+</div>
+<div>
+    <label for="Male">Male</label>
+    <input id="Male" type="radio" name="Gender">
+    <label for="Female">Female</label>
+    <input id="Female" type="radio" name="Gender">
+    <label for="Others">Others</label>
+    <input id="Others" type="radio" name="Gender">
+</div>
+<div>
+    <label>Email</label>
+    <input type="text" required>
+    <label>Password</label>
+    <input type="password" minlength="5" maxlength="10" required>
+</div>
+<div>
+    <p>Birthday:</p>
+    <select>
+    <option>Month</option>
+    <option>Jan</option>
+    <option>Feb</option>
+    <option>Mar</option>
+    <option>Apr</option>
+    <option>May</option>
+    <option>Jun</option>
+    <option>Jul</option>
+    <option>Aug</option>
+    <option>Sep</option>
+    <option>Oct</option>
+    <option>Nov</option>
+    <option>Dec</option>
+    </select>
+    <select>
+        <Option>Day</Option>
+        <Option>1</Option>
+        <Option>2</Option>
+        <Option>3</Option>
+        <Option>4</Option>
+        <Option>5</Option>
+        <Option>6</Option>
+        <Option>7</Option>
+        <Option>8</Option>
+        <Option>9</Option>
+        <Option>10</Option>
+     </select>
+     <select>
+         <option>Year</option>
+         <option>2000</option>
+         <option>2001</option>
+         <option>2002</option>
+         <option>2003</option>
+     </select>
+    </div>
+     <label>I agree to the terms and conditions</label>
+<input type="checkbox">
+<div>
+    <button>Submit</button>
+</div>
+</body>
+</form>
+</html>
